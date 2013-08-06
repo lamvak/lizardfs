@@ -17,6 +17,7 @@ include(CheckStructHasMember)
 include(CheckFunctions)
 include(CheckIncludes)
 include(CheckMembers)
+include(FindPythonInterp)
 include(Libraries)
 
 set(INCLUDES arpa/inet.h fcntl.h inttypes.h limits.h netdb.h netinet/in.h stddef.h stdlib.h string.h sys/resource.h
